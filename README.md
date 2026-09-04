@@ -20,6 +20,7 @@ sistema_recomendaciones/
 │   └── keywords.csv          # ~46K entradas de keywords por película
 ├── output/                   # Gráficas y visualizaciones generadas
 ├── utils.py                  # Funciones utilitarias compartidas
+├── app.py                    # Frontend interactivo del recomendador
 ├── 01_fundamentos.py         # Módulo 1: Fundamentos
 ├── 02_content_based.py       # Módulo 2: Content-Based Filtering
 ├── 03_nlp_tecnicas.py        # Módulo 3: Técnicas de NLP
@@ -54,6 +55,9 @@ python 02_content_based.py
 
 # Módulo 3: Técnicas de NLP
 python 03_nlp_tecnicas.py
+
+# Frontend interactivo
+streamlit run app.py
 ```
 
 ## 📊 ¿Qué aprenderás?
@@ -84,6 +88,7 @@ python 03_nlp_tecnicas.py
 - **NLTK** — Tokenización, stemming, lematización, stopwords
 - **matplotlib** — Visualizaciones
 - **wordcloud** — Nubes de palabras
+- **streamlit** — Interfaz interactiva para explorar recomendaciones
 
 ## 📄 Licencia
 
